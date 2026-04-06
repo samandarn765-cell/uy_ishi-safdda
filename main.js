@@ -36,3 +36,13 @@ form.addEventListener("submit", (e) => {
 btn.addEventListener("click", () => {
   gapirtir();
 });
+// Enter bosilganda
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  gapirtir();
+});
+
+// Button bosilganda
+btn.addEventListener("click", () => {
+  gapirtir();
+});
